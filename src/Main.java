@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args){
+        mapaPrint();
+    }
+    static void mapaPrint () {
         String mapa = "    #####              #   #              #$  #            ###  $##           #  $ $ #         ### # ## #   #######   # ## #####  ..## $  $          ..###### ### #@##  ..#    #     #########    #######        ";
         int col = 11;
         int row = 19;

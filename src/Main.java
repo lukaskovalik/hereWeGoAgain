@@ -45,7 +45,10 @@ public class Main {
             //samotny pohyb hraca
             if (mapArray[nextIndex] == '$') {
                 if(mapArray[afterNextIndex] == ' ' || mapArray[afterNextIndex] == '.'){
-
+                    mapArray[playerIndex] = ' ';
+                    mapArray[nextIndex] = '@';
+                    mapArray[afterNextIndex] = '$';
+                    playerIndex = nextIndex;
                 }
             }
 
